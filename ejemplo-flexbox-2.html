@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!DOCTYPE html>
+    <html>
+
+    <head>
+        <style>
+            body {
+                background-color: #f4acb7;
+                margin: 0;
+                padding: 0;
+            }
+
+            .container {
+                /* Podés visitar: https://developer.mozilla.org/es/docs/Learn/CSS/CSS_layout/Flexbox#el_modelo_flexible para entender el modelo Flexbox */
+                display: flex;
+                /* Establece el contenedor como un contenedor flex */
+                flex-wrap: wrap;
+                /* Permite que los elementos se envuelvan en líneas adicionales si no hay suficiente espacio */
+                justify-content: center;
+                /* Centra los elementos a lo largo del eje principal horizontal */
+                align-items: center;
+                /* Centra los elementos a lo largo del eje secundario vertical */
+                background-color: #ffcad4;
+                margin: 0 50px;
+                /* Margen a la derecha y a la izquierda. El valor 0 es para el margen superior e inferior */
+
+            }
+
+            header {
+                display: flex;
+                /* Establece el encabezado como un contenedor flex */
+                align-items: baseline;
+                /* Alinea los elementos del encabezado a lo largo de la línea de base */
+                justify-content: space-between;
+                /* Distribuye los elementos del encabezado de manera uniforme a lo largo del eje principal horizontal */
+                padding: 25px;
+            }
+
+            .container-title {
+                width: 100%;
+                text-align: center;
+                margin-bottom: 20px;
+            }
+
+            .container-image {
+                text-align: center;
+                margin-bottom: 20px;
+            }
+
+            .box {
+                width: 350px;
+                padding: 20px;
+                background-color: #ffe5d9;
+                margin: 10px;
+                text-align: center;
+            }
+        </style>
+    </head>
+
+<body>
+    <header>
+        <div class="container-image">
+            <img src="https://coolors.co/assets/img/logo.svg" alt="Imagen de Producto">
+        </div>
+        <div>
+            <h3 class="container-title">Mucho más que productos</h3>
+        </div>
+    </header>
+    <main class="container">
+        <div class="box">
+            <img src="https://picsum.photos/200" alt="">
+            <h3>Título 1</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href="#">Enlace 1</a>
+        </div>
+        <div class="box">
+            <img src="https://picsum.photos/200" alt="">
+            <h3>Título 2</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href="#">Enlace 2</a>
+        </div>
+        <div class="box">
+            <img src="https://picsum.photos/200" alt="">
+            <h3>Título 3</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href="#">Enlace 3</a>
+        </div>
+        <div class="box">
+            <img src="https://picsum.photos/200" alt="">
+            <h3>Título 4</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href="#">Enlace 4</a>
+        </div>
+    </main>
+</body>
+
+</html>
+<!--
+1. ¿Qué propiedad CSS se utiliza para establecer un contenedor como contenedor flex?
+Respuesta:Display
+
+2. ¿Qué valor se utiliza en la propiedad `flex-wrap` para permitir que los elementos se envuelvan en líneas adicionales si no hay suficiente espacio?
+Respuesta:wrap
+
+3. ¿Cuál es la propiedad CSS que se utiliza para centrar los elementos a lo largo del eje principal horizontal en un contenedor flex?
+Respuesta:justify-content:center;
+
+4. ¿Cuál es la propiedad CSS que se utiliza para centrar los elementos a lo largo del eje secundario vertical en un contenedor flex?
+Respuesta:Align-items:center;
+
+5. ¿Cuál es el propósito del valor `justify-content: space-between` en la propiedad `justify-content` del encabezado?
+Respuesta: Distribuye los elementos del encabezado de manera uniforme
+
+6. ¿Cuál es el propósito del valor `align-items: baseline` en la propiedad `align-items` del encabezado?
+Respuesta:Alinea los elementos del encabezado a lo largo de la línea de base
+
+7. ¿Qué propiedad CSS se utiliza para establecer el ancho del contenedor del título del header. Clase container-title ?
+Respuesta: width:100px
+
+8. ¿Qué propiedad CSS se utiliza para alinear el texto del título en el centro?
+Respuesta: text-align: center;
+
+9. ¿Cuál es la propiedad CSS que se utiliza para establecer un margen a la derecha y a la izquierda del contenedor?
+Respuesta:margin: 0 50px;
+
+10. ¿Qué propiedad CSS se utiliza para establecer el color de fondo del contenedor principal?
+Respuesta:Background-color
+
+
+-->
