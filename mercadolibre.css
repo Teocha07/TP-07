@@ -1,0 +1,30 @@
+main{
+    display: flex;
+    
+}
+body{
+    background-color: #360000;
+}
+p{
+color: black;
+}
+h3{
+color: black;
+}
+.box{
+    margin: 10px;
+}
+header{
+ 
+justify-content: space-between;
+background: rgb(255, 255, 255);
+background: linear-gradient(90deg, rgba(68,1,1,1) 0%, rgba(110,14,14,1) 0%, rgba(193,1,1,1) 100%);
+}
+button{
+    color: none;
+}
+h1{
+    text-align: center;
+    color: black;
+    padding:0px;
+}
